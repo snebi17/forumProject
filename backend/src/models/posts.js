@@ -5,24 +5,61 @@ let jwt = require('jsonwebtoken');
 
 let Schema = mongoose.Schema;
 
+// const Comment = {
+//     body: {
+//         type: String,
+//         maxlength: 255,
+//         required: true
+//     },
+//     author: {
+//         type: String,
+//         _id: String
+//     },
+//     createdAt: {
+//         type: Date,
+//         default: Date.now()
+//     },
+// }
+
 const Post = new Schema({
     title: {
         type: String,
         maxlength: 64,
-        required: true
+        // required: true
     },
     body: {
         type: String,
-        maxlength: 255,
-        required: true
+        // required: true
     },
-    commentsSection: {
-
-    }
+    author: {
+        type: String,
+        // required: true
+    },
+    createdAt: {
+        type: Date,
+        default: Date.now
+    },
+    imgTitle: {
+        type: String,
+        default: ''
+    },
+    comments: [
+        {
+            body: {
+                type: String,
+                maxlength: 255,
+                required: true
+            },
+            author: {
+                type: String,
+                _id: String
+            },
+            createdAt: {
+                type: Date,
+                default: Date.now()
+            },
+        }
+    ]
 });
-
-Post.methods.addComment = body => {
-    // Post.commentsSection += body;
-}
 
 mongoose.model('Post', Post);

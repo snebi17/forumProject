@@ -3,12 +3,15 @@ const dbURI = 'mongodb://localhost:27017/forum';
 require('./posts');
 require('./users');
 require('./token');
+require('./event');
+// require('fighter');
+
 
 mongoose.connect(dbURI, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
-    useFindAndModify: true
+    useFindAndModify: false
 });
 
 mongoose.connection.on('connected', () => {

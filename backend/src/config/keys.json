@@ -1,0 +1,12 @@
+/*{
+  "type": "service_account",
+  "project_id": "forumma",
+  "private_key_id": "35d6db6b261d7b2e4aaf315af171ba013d26b444",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1zB1LZPq91S0L\njJmTvRD97do7gKC07Q5JYATQeFHsAcjIwCU69BL/WLn4T8ZxHybw5Q2kNxRjIGLL\nUHtRvIzkHRdarJ6hOZ5SthBKROpqo98939jeNP8Abr08SeZzBFmMrolqVjYAhSKG\nIIUEAJNlxhmn+mt3Du5LeyZg4BEL+99U4wfPHzcNmusP/IvEIGEFgLTTeoHQtouW\n5PU2vGpKgm/8GC7S6JcEMCQaeYOWgyy/HZgBlkI0ttCDs2aHrCnNUE/ou98plNxa\n+VyZkMGXRuevOawmWsCT4xgIq0JSJ2UvweIjpGhntZAkVTYfDLVJSNeTa4GXvMcm\nfO+uxFHDAgMBAAECggEAPsX/uYhhMkpZNvsyDnsC0oOeTtx/4WlXfQucLfXV58XH\n9FWwpVYg9y3GbVDyhx4IHrcgyjrAnefRZT3hjxwplBzdcxBW5/nSyuGV52c7gF4c\nWCuioTuwb5BNZHNqEP4IA9VCmsaw9+YAwUqaU4L1YneQZVnJYL91lfesjVfhWv7k\ns6tFVSG7rUwSMOc8CXzdvUoPOsicOXIabmp8OiAXlTCTfnD0XMCHB6ZuqPWzys+4\nD4LCYS6mC1yYTLK/smEGRLOQ6xO4GycoHCurVbgQAAid1RZd1xQbXcY6r8D1hgPh\nuUBQ6tf+Fw2YBihiQMav+EAl2AyiUwNjsl+HfFtU1QKBgQDpNp782AfA6woI1N5F\nOVio2N2w7+LzQ4jFetZ+AyVfo6Uu1INPIDRWeBu+oR5KPpOYW8MkBQqpvoBm3dAH\n6xy9otQjCaoBdUbmlaFOEF/C4PQhVsu3i3DFDPv1OScXFEKX31o7Iagk+1Ry5F66\neg5SuYG+i991y2yntOnN+QE+1wKBgQDHj2vKNPoSxRYp/j1v3WF0vOAkmfQ66R/c\nVUbkP6yJ+nUaNHS4Q/LdU9J8Ow8dfGQLhOoV6TkSnxnBgSfHSUYdYcn1tv+vO7ss\n2q0vPfmA/N+bkea5hQqjHTl5xXJE5jGBPZSFrFUi7V1C7IExuzwte7mFgSFUWDVq\nufqZU2aC9QKBgFGoKWT4s0ZORdYvyp/MY4nDXWRNqlZpCCO1ThMTQOvK3dSW3l8/\nNHQuW/CUc4mlfYJ0ZtBe34vtwwHBmsya+xY/RC38fUVDbg7gx3kQ7KbMo05lGLFs\nppCoajRDzbccBfEtaGeZ8kj4o2oTIkQC5q76ez5ftV+GWcYi51aSYGhDAoGBAMaP\nvQfIqJ6ufbww3X6F/ydBm6CvkuRe+7WnIE+Rz6LGk2gMk6qY6Xkxozi7JvIGyCDy\nElzU31XY+q6gTS0silhH6cTUXhpEy5v4xeNAvhaLBg7sIG+togTk2kCApo9JoC5h\nUHulGl0TYv1pB6+tBlaXSeQ9tSUQU64q+N9ArbpVAoGAdZ1xO1yzEvXgg5T+lqIU\nGBMCnqaey+I5/UqBuHjSUHmyZjIoau7DFer987nTLhmoCoUK+r9XtypxB8BZRCbz\nbKq9FGGUUyFyYNxlEsXzAbeh/FJZs4MHyGI4w0Zq19mV+Wd55FWImxXPoneUBWr+\n7+B3rCUckdFfzMuW2gA9Rlk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "forumma@forumma.iam.gserviceaccount.com",
+  "client_id": "115557538412380942772",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forumma%40forumma.iam.gserviceaccount.com"
+}*/

@@ -1,101 +1,80 @@
 const { json } = require('body-parser');
 const mongoose = require('mongoose');
-const passport = require('passport');
 
 const User = mongoose.model('User');
 const Token = mongoose.model('Token');
 
-exports.getUser = (req, res) => {
-    let email = req.body.email;
-    User.findOne({ email: email })
+exports.findUser = (req, res) => {
+    User.findById(req.params.id)
         .then(user => {
-            console.log(JSON.stringify({ user }));
             if (!user) {
-                return res.status(404).send({ 
-                    message: 'No such user in database!'
+                return res.status(500).send({
+                    user: null,
+                    message: 'User with this ID does not exist'
                 });
             }
-            if (!user.checkPassword(req.body.password)) {
-                return res.status(400).send({
-                    message: 'Incorrect password!'
-                });
-            }
-
-            let JWT = user.generateJWT();
-            let newToken = new Token({ token: JWT });
-
-            newToken.save(newToken)
-                .then(() => {
-                    return res.status(200).send({ 
-                        'JWT Token': JWT
-                    });
-                })
-                .catch(err => {
-                    return res.status(400).send({
-                        message: err.message
-                    });
-                });
-                
-            user.loggedIn = true;
+            res.json({
+                user
+            });
         })
         .catch(err => {
-            console.log(err);
             res.status(400).send({
                 message: err.message
             });
         });
 };
 
-exports.createUser = (req, res) => {
-    let { username, password, email } = req.body;
-    
-    if (!username || !password || !email) {
-        return res.status(400).send({ 
-            message: "All fields must be entered!"
-        });
-    }
-
-    if (username.length > 32 || password.length > 64 || email.length > 64) {
-        return res.status(413).send({ 
-            message: "Field too long!" 
-        });
-    }
-
-    User.find({ email })
+exports.findByUsername = (req, res) => {
+    User.findOne({ username: req.query.username })
         .then(user => {
-            if (user) {
+            if (!user) {
                 return res.status(500).send({
-                    message: 'User with these credentials already exists in database!'
+                    message: 'This user does not exist'
                 });
             }
-
-            let newUser = new User({
-                username: username,
-                password: password,
-                email: email
-            });
-
-            newUser.hashPassword(password);
-
-            newUser.save()
-                .then(response => {
-                    return res.status(201).send({
-                        message: 'User created!'
-                    });
-                })
-                .catch(err => {
-                    return res.status(400).send({
-                        message: err
-                    })
-                });
+            res.json({
+                user
+            })
         })
         .catch(err => {
-            res.status(404).send({
-                message: err
+            res.status(400).send({
+                message: err.message
+            });
+        });
+}
+
+exports.deleteUser = (req, res) => {
+    User.findByIdAndDelete(req.params.id)
+        .then(user => {
+            if (!user) {
+                return res.status(500).send({
+                    message: 'User with this ID does not exist'
+                });
+            }
+            res.status(200).send({
+                message: 'User successfully deleted'
+            })
+        })
+        .catch(err => {
+            res.status(400).send({
+                message: err.message
             })
         });
 };
 
 exports.updateUser = (req, res) => {
+    let newData = req.body; 
 
+    console.log(newData);
+    User.findById(req.params.id)
+        .then(user => {
+            newData.username === null || (user.username = newData.username);
+            newData.email === null || (user.email = newData.email);
+            newData.imgTitle === null || (user.imgTitle = newData.imgTitle);
+            console.log(user);  
+            user.save()
+                .then(() => res.status(200).send({ message: 'Uporabnik uspešno posodobljen'}))
+                .catch(() => res.status(500).send({ message: 'Napaka' }));
+        })
+        .catch(err => console.log(err));
 };

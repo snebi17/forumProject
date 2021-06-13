@@ -1,0 +1,53 @@
+{
+    "name": "Pound for Pound",
+    "imgSrc": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2020-09/JONES_JON_12-29.png?_D9_IoLshL2u7P9kI.xElSVHvnSjHODe&itok=M_k-MDqN",
+    "url": "pound_for_pound"
+}, {
+    "name": "Flyweight",
+    "imgSrc": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2020-08/FIGUEIREDO_DEIVESON_BELT.png?CR8EqURePHivMu9UQAjyy0PK1bEwQo6m&itok=YJvYUOyv",
+    "url": "flyweight"
+}, {
+    name: 'Bantamweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/%5Bdate%3Acustom%3AY%5D-%5Bdate%3Acustom%3Am%5D/67275_profile-galery_profile-picture_STERLING_ALJAMAIN_BELT.png?null&itok=lTnWeKUJ',
+    url: 'bantamweight'
+}, {
+    name: 'Featherweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2020-07/VOLKANOVSKI_ALEXANDER_BELT_07-11.png?DomqxzrujBL5G7BQpQoUNLqzEsscAat2&itok=2LFzlPPm',
+    url: 'featherweight'
+}, {
+    name: 'Lightweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/event_results_athlete_headshot/s3/2020-10/68504%252Fprofile-galery%252Fprofile-picture%252FNURMAGOMEDOV_KHABIB_BELT_10-24.png?null&itok=AiYpOwIn',
+    url: 'lightweight'
+}, {
+    name: 'Welterweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2020-07/USMAN_KAMARU_BELT_12-14.png?8Gz1X0B9W0uYOPwkivit5nmste0anD7t&itok=hqFFD_Se',
+    url: 'welterweight'
+}, {
+    name: 'Middleweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2021-03/68129%252Fprofile-galery%252Fprofile-picture%252FADESANYA_ISRAEL_BELT_03-06.png?null&itok=dd9-3zDu',
+    url: 'middleweight'
+}, {
+    name: 'Light Heavyweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2021-03/68179%252Fprofile-galery%252Fprofile-picture%252FBLACHOWICZ_JAN_BELT_03-06.png?null&itok=mUfEMuo4',
+    url: 'light_heavyweight'
+}, {
+    name: 'Heavyweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/%5Bdate%3Acustom%3AY%5D-%5Bdate%3Acustom%3Am%5D/67964_profile-galery_profile-picture_NGANNOU_FRANCIS_BELT.png?null&itok=wW0eIq5f',
+    url: 'heavyweight'
+}, {
+    name: 'Women Pound for Pound',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2021-03/67289%252Fprofile-galery%252Fprofile-picture%252FNUNES_AMANDA_BELT_03-06.png?null&itok=T_TfzMQS',
+    url: 'women_pound_for_pound'
+}, {
+    name: 'Women Strawweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/image/ufc-fighter-container/69500/profile-galery/profile-picture/WEILI_ZHANG_BELT.png?.9ZQmD18LRobijcjNHZTM3mHCCul6e9j&itok=irugQz3s',
+    url: 'women_strawweight'
+}, {
+    name: 'Women Flyweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2020-02/SHEVCHENKO_VALENTINA_BELT.png?9gAF.xDytLtPtZ_qggE7dzZoNZW3xZqp&itok=91E7q3D7',
+    url: 'women_flyweight'
+}, {
+    name: 'Women Bantamweight',
+    imgSrc: 'https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_profile_listing_medium_1x/s3/2021-03/67289%252Fprofile-galery%252Fprofile-picture%252FNUNES_AMANDA_BELT_03-06.png?null&itok=T_TfzMQS',
+    url: 'women_bantamweight'
+}

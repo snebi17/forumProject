@@ -1,0 +1,535 @@
+{
+    "pound_for_pound": [{
+            "fullname": "Jon Jones",
+            "nickname": "Bones"
+        },
+        {
+            "fullname": "Kamaru Usman",
+            "nickname": "Nigerian Nightmare"
+        },
+        {
+            "fullname": "Aleksander Volkanovski",
+            "nickname": "The Great"
+        },
+        {
+            "fullname": "Isreal Adesanya",
+            "nickname": "The Last Stylebender"
+        },
+        {
+            "fullname": "Francis Ngannou",
+            "nickname": "The Predator"
+        },
+        {
+            "fullname": "Dustin Poirier",
+            "nickname": "The Diamond"
+        },
+        {
+            "fullname": "Stipe Miocic",
+            "nickname": ""
+        },
+        {
+            "fullname": "Jan Blachowicz",
+            "nickname": ""
+        },
+        {
+            "fullname": "Max Holloway",
+            "nickname": "Blessed"
+        },
+        {
+            "fullname": "Deiveson Figuiredo",
+            "nickname": "Deus da Guerra"
+        }
+    ],
+    "flyweight": [{
+            "fullname": "Deiveson Figuiredo",
+            "nickname": "Deus da Guerra"
+        },
+        {
+            "fullname": "Brandon Moreno",
+            "nickname": "The Assassin Baby"
+        },
+        {
+            "fullname": "Askar Askarov",
+            "nickname": "Bullet"
+        },
+        {
+            "fullname": "Alexandre Pantoja",
+            "nickname": "The Cannibal"
+        },
+        {
+            "fullname": "Alex Perez",
+            "nickname": ""
+        },
+        {
+            "fullname": "Joseph Benavidez",
+            "nickname": ""
+        },
+        {
+            "fullname": "Brandon Royval",
+            "nickname": "Raw Dawg"
+        },
+        {
+            "fullname": "Kai Kara France",
+            "nickname": "Don't Blink"
+        },
+        {
+            "fullname": "Matt Schnell",
+            "nickname": "Danger"
+        },
+        {
+            "fullname": "Rogerio Bontorin",
+            "nickname": ""
+        }
+    ],
+    "bantamweight": [{
+            "fullname": "Aljamain Sterling",
+            "nickname": "Funk Master"
+        },
+        {
+            "fullname": "Petr Yan",
+            "nickname": "No Mercy"
+        },
+        {
+            "fullname": "Cory Sandhagen",
+            "nickname": ""
+        },
+        {
+            "fullname": "Rob Font",
+            "nickname": ""
+        },
+        {
+            "fullname": "Cody Garbrandt",
+            "nickname": "No Love"
+        },
+        {
+            "fullname": "Jose Aldo",
+            "nickname": ""
+        },
+        {
+            "fullname": "Marlon Moraes",
+            "nickname": "Magic"
+        },
+        {
+            "fullname": "Frankie Edgar",
+            "nickname": "The Answer"
+        },
+        {
+            "fullname": "Pedro Munhoz",
+            "nickname": "The Young Punisher"
+        },
+        {
+            "fullname": "Dominick Cruz",
+            "nickname": ""
+        }
+    ],
+    "featherweight": [{
+            "fullname": "Alexander Volkanovski",
+            "nickname": "The Great"
+        },
+        {
+            "fullname": "Max Holloway",
+            "nickname": "Blessed"
+        },
+        {
+            "fullname": "Brian Ortega",
+            "nickname": "T-City"
+        },
+        {
+            "fullname": "Zabit Magomedsharipov",
+            "nickname": ""
+        },
+        {
+            "fullname": "Yair Rodriguez",
+            "nickname": "El Pantera"
+        },
+        {
+            "fullname": "Chan Sung Jung",
+            "nickname": "The Korean Zombie"
+        },
+        {
+            "fullname": "Calvin Kattar",
+            "nickname": ""
+        },
+        {
+            "fullname": "Josh Emmett",
+            "nickname": ""
+        },
+        {
+            "fullname": "Dan Ige",
+            "nickname": "50K"
+        },
+        {
+            "fullname": "Jeremy Stephens",
+            "nickname": "Lil' Heathen"
+        }
+    ],
+    "lightweight": [{
+            "fullname": "Khabib Nurmagomedov",
+            "nickname": "The Eagle"
+        },
+        {
+            "fullname": "Dustin Poirier",
+            "nickname": "The Diamond"
+        },
+        {
+            "fullname": "Justin Gaethje",
+            "nickname": "The Highlight"
+        },
+        {
+            "fullname": "Charles Oliveira",
+            "nickname": "Do Bronx"
+        },
+        {
+            "fullname": "Michael Chandler",
+            "nickname": "Iron"
+        },
+        {
+            "fullname": "Tony Ferguson",
+            "nickname": "El Cucuy"
+        },
+        {
+            "fullname": "Conor McGregor",
+            "nickname": "The Notorious"
+        },
+        {
+            "fullname": "Rafael dos Anjos",
+            "nickname": ""
+        },
+        {
+            "fullname": "Dan Hooker",
+            "nickname": "The Hangman"
+        },
+        {
+            "fullname": "Beneil Dariush",
+            "nickname": ""
+        }
+    ],
+    "welterweight": [{
+            "fullname": "Kamaru Usman",
+            "nickname": "Nigerian Nightmare"
+        },
+        {
+            "fullname": "Colby Covington",
+            "nickname": "Chaos"
+        },
+        {
+            "fullname": "Gilbert Burns",
+            "nickname": "Durinho"
+        },
+        {
+            "fullname": "Leon Edwards",
+            "nickname": "Rocky"
+        },
+        {
+            "fullname": "Jorge Masvidal",
+            "nickname": "Gamebred"
+        },
+        {
+            "fullname": "Stephen Thompson",
+            "nickname": "Wonderboy"
+        },
+        {
+            "fullname": "Vicente Luque",
+            "nickname": "The Silent Assassin"
+        },
+        {
+            "fullname": "Michael Chiesa",
+            "nickname": "Maverick"
+        },
+        {
+            "fullname": "Demian Maia",
+            "nickname": ""
+        },
+        {
+            "fullname": "Neil Magny",
+            "nickname": "The Haitian Sensation"
+        }
+    ],
+    "middleweight": [{
+            "fullname": "Israel Adesanya",
+            "nickname": "The Last Stylebender"
+        },
+        {
+            "fullname": "Robert Whittaker",
+            "nickname": "The Reaper"
+        },
+        {
+            "fullname": "Paulo Costa",
+            "nickname": "The Eraser"
+        },
+        {
+            "fullname": "Jaren Cannonier",
+            "nickname": "The Killa Gorilla"
+        },
+        {
+            "fullname": "Derek Brunson",
+            "nickname": ""
+        },
+        {
+            "fullname": "Darren Till",
+            "nickname": "The Gorilla"
+        },
+        {
+            "fullname": "Marvin Vettori",
+            "nickname": "The Italian Dream"
+        },
+        {
+            "fullname": "Jack Hermansson",
+            "nickname": "The Joker"
+        },
+        {
+            "fullname": "Kelvin Gastelum",
+            "nickname": ""
+        },
+        {
+            "fullname": "Uriah Hall",
+            "nickname": "Prime Time"
+        }
+    ],
+    "light_heavyweight": [{
+            "fullname": "Jan Blachowicz",
+            "nickname": ""
+        },
+        {
+            "fullname": "Glover Teixeira",
+            "nickname": ""
+        },
+        {
+            "fullname": "Aleksandar Rakic",
+            "nickname": ""
+        },
+        {
+            "fullname": "Dominick Reyes",
+            "nickname": "The Devastator"
+        },
+        {
+            "fullname": "Thiago Santos",
+            "nickname": "Marreta"
+        },
+        {
+            "fullname": "Jiri Prochazka",
+            "nickname": "Denisa"
+        },
+        {
+            "fullname": "Anthony Smith",
+            "nickname": "Lionheart"
+        },
+        {
+            "fullname": "Magomed Ankalaev",
+            "nickname": ""
+        },
+        {
+            "fullname": "Volkan Oezdemir",
+            "nickname": "No Time"
+        },
+        {
+            "fullname": "Nikita Krylov",
+            "nickname": "The Miner"
+        }
+    ],
+    "heavyweight": [{
+            "fullname": "Francis Ngannou",
+            "nickname": "The Predator"
+        },
+        {
+            "fullname": "Stipe Miocic",
+            "nickname": ""
+        },
+        {
+            "fullname": "Derrick Lewis",
+            "nickname": "The Black Beast"
+        },
+        {
+            "fullname": "Curtis Blaydes",
+            "nickname": "Razor"
+        },
+        {
+            "fullname": "Ciryl Gane",
+            "nickname": "Bon Gamin"
+        },
+        {
+            "fullname": "Alexander Volkov",
+            "nickname": "Drago"
+        },
+        {
+            "fullname": "Jairzinho Rozenstruik",
+            "nickname": "Bigi Boy"
+        },
+        {
+            "fullname": "Shamil Abdurakhimov",
+            "nickname": "Abrek"
+        },
+        {
+            "fullname": "Walt Harris",
+            "nickname": "The Big Ticket"
+        },
+        {
+            "fullname": "Augusto Sakai",
+            "nickname": ""
+        }
+    ],
+    "women_pound_for_pound": [{
+            "fullname": "Amanda Nunes",
+            "nickname": "The Lioness"
+        },
+        {
+            "fullname": "Valentina Shevchenko",
+            "nickname": "Bullet"
+        },
+        {
+            "fullname": "Zhang Weili",
+            "nickname": "Magnum"
+        },
+        {
+            "fullname": "Rose Namajunas",
+            "nickname": "Thug"
+        },
+        {
+            "fullname": "Jessica Andrade",
+            "nickname": "Bate Estaca"
+        },
+        {
+            "fullname": "Joanna Jedrzeczik",
+            "nickname": ""
+        },
+        {
+            "fullname": "Germaine de Randamie",
+            "nickname": "The Iron Lady"
+        },
+        {
+            "fullname": "Holly Holm",
+            "nickname": "The Preacher's daughter"
+        },
+        {
+            "fullname": "Aspen Ladd",
+            "nickname": ""
+        },
+        {
+            "fullname": "Katlyn Chookagian",
+            "nickname": "Blonde Fighter"
+        }
+    ],
+    "women_strawweight": [{
+            "fullname": "Zhang Weili",
+            "nickname": "Magnum"
+        },
+        {
+            "fullname": "Rose Namajunas",
+            "nickname": "Thug"
+        },
+        {
+            "fullname": "Joanna Jedrzeczik",
+            "nickname": ""
+        },
+        {
+            "fullname": "Yan Xiaonan",
+            "nickname": ""
+        },
+        {
+            "fullname": "Carla Esparza",
+            "nickname": "Cookie Monster"
+        },
+        {
+            "fullname": "Nina Ansaroff",
+            "nickname": ""
+        },
+        {
+            "fullname": "Marina Rodriguez",
+            "nickname": "The Italian Dream"
+        },
+        {
+            "fullname": "Claudia Gadelha",
+            "nickname": "Claudinha"
+        },
+        {
+            "fullname": "Michelle Waterson",
+            "nickname": "The Karate Hottie"
+        },
+        {
+            "fullname": "Tecia Torres",
+            "nickname": "Tiny Tornado"
+        }
+    ],
+    "women_flyweight": [{
+            "fullname": "Valentina Shevchenko",
+            "nickname": "Bullet"
+        },
+        {
+            "fullname": "Jessica Andrade",
+            "nickname": "Bate Estaca"
+        },
+        {
+            "fullname": "Katlyn Chookagian",
+            "nickname": "Blonde Fighter"
+        },
+        {
+            "fullname": "Lauren Murphy",
+            "nickname": "Lucky"
+        },
+        {
+            "fullname": "Jennifer Maia",
+            "nickname": ""
+        },
+        {
+            "fullname": "Cynthia Calvillo",
+            "nickname": ""
+        },
+        {
+            "fullname": "Joanne Calderwood",
+            "nickname": "Jojo"
+        },
+        {
+            "fullname": "Viviane Araujo",
+            "nickname": "Vivi"
+        },
+        {
+            "fullname": "Jessica Eye",
+            "nickname": "Evil"
+        },
+        {
+            "fullname": "Roxanne Modafferi",
+            "nickname": "The Happy Warrior"
+        }
+    ],
+    "women_bantamweight": [{
+            "fullname": "Amanda Nunes",
+            "nickname": "The Lioness"
+        },
+        {
+            "fullname": "Germaine De Randamie",
+            "nickname": "The Iron Lady"
+        },
+        {
+            "fullname": "Holly Holm",
+            "nickname": "The Preacher's Daughter"
+        },
+        {
+            "fullname": "Aspen Ladd",
+            "nickname": ""
+        },
+        {
+            "fullname": "Irene Aldana",
+            "nickname": ""
+        },
+        {
+            "fullname": "Yana Kunitskaya",
+            "nickname": ""
+        },
+        {
+            "fullname": "Julianna Peña", 
+            "nickname": "The Venezuelan Vixen"
+        },
+        {
+            "fullname": "Ketlen Vieira",
+            "nickname": "Fenomeno"
+        },
+        {
+            "fullname": "Sara McMann",
+            "nickname": ""
+        },
+        {
+            "fullname": "Macy Chiasson",
+            "nickname": ""
+        }
+    ]
+}

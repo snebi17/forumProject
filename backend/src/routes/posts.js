@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const authJWT = require('../middlewares/authJWT');
-const usersController = require('../controllers/users');
+const postController = require('../controllers/posts');
+// const { route } = require('../server');
 
 module.exports = postsRouter => {
     
@@ -11,14 +12,22 @@ module.exports = postsRouter => {
         );
         next();
     });
+    
+    router.get('/', postController.findPosts);
+    
+    router.get('/:id', postController.findOnePost);
 
-    // router.get('/:id', [authJWT.verifyTokenUser], usersController.findByID);
+    router.post('/', postController.addPost);
 
-    // router.delete('/:id', [authJWT.verifyTokenUser], usersController.delete);
+    router.delete('/:id', postController.removePost);
+    
+    router.put('/:id', postController.editPost);
+    
+    router.post('/:id', postController.addComment);
 
-    // router.put('/:id', [authJWT.verifyTokenUser], usersController.update);
+    router.delete('/:id/:comId', postController.removeComment);
 
-    // usersRouter.use('/api/users', router);
+    router.put('/:id/comId', postController.editComment);
 
     postsRouter.use('/api/posts', router);
 };

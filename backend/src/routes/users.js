@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const authJWT = require('../middlewares/authJWT');
+const registerCheck = require('../middlewares/registerCheck');
 const usersController = require('../controllers/users');
 
 module.exports = usersRouter => {
@@ -12,30 +13,14 @@ module.exports = usersRouter => {
         next();
     });
 
-    router.post('/sign-in', usersController.getUser);
+    router.get('/:id', /*[authJWT.verifyTokenUser]*/ usersController.findUser);
 
-    router.post('/sign-up', usersController.createUser);
+    router.get('/', usersController.findByUsername);
 
-    router.put('/:id', usersController.updateUser);
+    router.delete('/:id', [authJWT.verifyTokenUser], usersController.deleteUser);
 
-    // [
-    //     check('username', 'Please enter a valid username!')
-    //     .not()
-    //     .isEmpty(),
-    //     check('email', 'Please enter a valid email').isEmail(),
-    //     check('password', 'Please enter a valid password!').isLength({ min: 8 })
-    // ]
-
-    // router.get('/sign-in', (req, res) => {
-    //     res.json({ message: 'Works' });
-    //     usersController.findUser;
-    // });
-
-    // router.get('/:id', [authJWT.verifyTokenUser], usersController.findByID);
-
-    // router.delete('/:id', [authJWT.verifyTokenUser], usersController.delete);
-
-    // router.put('/:id', [authJWT.verifyTokenUser], usersController.update);
+    router.put('/:id', [authJWT.verifyTokenUser, registerCheck.checkUniqueUsernameEmail], usersController.updateUser);
 
     usersRouter.use('/api/users', router);
 };
+
